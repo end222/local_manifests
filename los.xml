@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <!-- Device tree -->
+  <project path="device/xiaomi/curtana" name="end222/android_device_xiaomi_curtana-unified" remote="github" revision="lineage-17.1" />
+
+  <!-- Kernel source -->
+  <project path="kernel/xiaomi/sm6250" name="end222/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-17.1" />
+
+  <!-- Vendor tree -->
+  <project path="vendor/xiaomi" name="end222/proprietary_vendor_xiaomi" remote="github" revision="lineage-17.1" />
+
+  <!-- Media and audio HALs -->
+  <project path="hardware/qcom-caf/sm8150/media" name="end222/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="end222/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sm8150" />
+</manifest>
